@@ -38,9 +38,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= CharacterVariables)
 	int MaxHP = 3.;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= CharacterVariables)
 	int HP;
 	
 	// Called to bind functionality to input
