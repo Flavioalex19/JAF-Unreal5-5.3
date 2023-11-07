@@ -34,6 +34,8 @@ void AMyMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	HP = MaxHP;
+	
 	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
 	{
 		
