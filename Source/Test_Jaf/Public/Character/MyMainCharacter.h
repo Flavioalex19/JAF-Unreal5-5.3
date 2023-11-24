@@ -46,6 +46,8 @@ public:
 	bool CanBeHit = true;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterVariables)
 	bool Foda_se = true;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterVariables)
+	bool Teste = true;
 	
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
