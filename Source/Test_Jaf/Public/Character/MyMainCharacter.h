@@ -42,7 +42,7 @@ public:
 	int MaxHP = 3.;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= CharacterVariables)
 	int HP;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterVariables)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterVariables, meta=(AllowPrivateAccess = "true"))
 	bool CanBeHit = true;
 	
 	// Called to bind functionality to input
